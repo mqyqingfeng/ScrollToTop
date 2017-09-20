@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"></meta>
+    <title>回到顶部</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <ul id="rule-list" class="rule-list">
+        <li class="rule rule1">100px</li>
+        <li class="rule rule2">200px</li>
+        <li class="rule rule3">300px</li>
+        <li class="rule rule4">400px</li>
+        <li class="rule rule5">500px</li>
+        <li class="rule rule6">600px</li>
+        <li class="rule rule7">700px</li>
+        <li class="rule rule8">800px</li>
+        <li class="rule rule9">900px</li>
+        <li class="rule rule10">1000px</li>
+    </ul>
+    <span id="toTop" class="toTop"></span>
+    <script type="text/javascript" src="js/scrollToTop.js"></script>
+    <script>
+    // ie7 下传入元素 ie8 及以上可以传入选择符字符串
+    var topElement = document.getElementById("toTop");
+    var toTop = new ScrollToTop(topElement, {
+        showWhen: 200,
+        speed: 200
+    })
+    </script>
+</body>
+
+</html>
