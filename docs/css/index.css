@@ -28,6 +28,7 @@ body {
     line-height: 100px;
     text-align: center;
     color: #fff;
+    background-color: #1abc9c;
 }
 
 .rule-list {
@@ -36,42 +37,3 @@ body {
     padding: 0;
 }
 
-.rule1 {
-    background-color: #1abc9c;
-}
-
-.rule2 {
-    background-color: #2ecc71;
-}
-
-.rule3 {
-    background-color: #3498db;
-}
-
-.rule4 {
-    background-color: #9b59b6;
-}
-
-.rule5 {
-    background-color: #34495e;
-}
-
-.rule6 {
-    background-color: #f1c40f;
-}
-
-.rule7 {
-    background-color: #e67e22;
-}
-
-.rule8 {
-    background-color: #e74c3c;
-}
-
-.rule9 {
-    background-color: #bdc3c7;
-}
-
-.rule10 {
-    background-color: #95a5a6;
-}
